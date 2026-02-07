@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+  color: #222;
+}
+
+.header {
+  background: #1e3a8a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.nav {
+  background: #111827;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.section {
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  margin: 0 auto;
+  max-width: 800px;
+  border: 1px solid #ddd;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.schedule-table th,
+.schedule-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.speaker {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.speaker img {
+  width: 120px;
+  height: auto;
+  border: 1px solid #ddd;
+}
+
+.form {
+  margin-top: 10px;
+}
+
+.form label {
+  display: block;
+  margin-top: 10px;
+}
+
+.form input,
+.form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #bbb;
+}
+
+.btn {
+  margin-top: 12px;
+  padding: 10px;
+  background: #1e3a8a;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #162a63;
+}
+
+.footer {
+  background: #111827;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tech Fest 2026</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <h1>Tech Fest 2026</h1>
+    <p>Workshops • Demos • Mini Hack Sprint</p>
+  </header>
+
+  <nav class="nav">
+    <a href="#about">About</a>
+    <a href="#schedule">Schedule</a>
+    <a href="#speakers">Speakers</a>
+    <a href="#register">Register</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="section">
+    <article class="card">
+      <h2>About</h2>
+      <p>
+        Tech Fest 2026 is a one-day event for students interested in software, AI, and cybersecurity.
+        Come learn, meet people, and build something cool.
+      </p>
+      <img class="main-image" src="images/tech-event.jpg" alt="Students at a tech event" />
+      <p><strong>Date:</strong> April 18, 2026</p>
+      <p><strong>Location:</strong> Innovation Hall</p>
+    </article>
+  </section>
+
+  <section id="schedule" class="section">
+    <article class="card">
+      <h2>Event Schedule</h2>
+      <table class="schedule-table">
+        <tr>
+          <th>Time</th>
+          <th>Activity</th>
+          <th>Place</th>
+        </tr>
+        <tr>
+          <td>9:00 AM</td>
+          <td>Check-in</td>
+          <td>Lobby</td>
+        </tr>
+        <tr>
+          <td>10:00 AM</td>
+          <td>Keynote</td>
+          <td>Auditorium</td>
+        </tr>
+        <tr>
+          <td>11:00 AM</td>
+          <td>Workshops</td>
+          <td>Lab Rooms</td>
+        </tr>
+        <tr>
+          <td>1:00 PM</td>
+          <td>Mini Hack Sprint</td>
+          <td>Innovation Hub</td>
+        </tr>
+        <tr>
+          <td>4:30 PM</td>
+          <td>Awards + Closing</td>
+          <td>Auditorium</td>
+        </tr>
+      </table>
+    </article>
+  </section>
+
+  <section id="speakers" class="section">
+    <article class="card">
+      <h2>Speakers / Guests</h2>
+
+      <div class="speaker">
+        <img src="images/Patrick.png" alt="Speaker 1 photo" />
+        <h3>Dr. Amina Bello</h3>
+        <p>AI Researcher</p>
+      </div>
+
+      <div class="speaker">
+        <img src="images/Spongebob.png" alt="Speaker 2 photo" />
+        <h3>Jason Park</h3>
+        <p>Security Engineer</p>
+      </div>
+    </article>
+  </section>
+
+  <section id="register" class="section">
+    <article class="card">
+      <h2>Registration Form</h2>
+
+      <form class="form" action="#" method="post">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="track">Choose a track</label>
+        <select id="track" name="track" required>
+          <option value="">--Select--</option>
+          <option value="web">Web Dev</option>
+          <option value="ai">AI / ML</option>
+          <option value="cyber">Cybersecurity</option>
+        </select>
+
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </article>
+  </section>
+
+  <footer id="contact" class="footer">
+    <p><strong>Contact:</strong> techfest@yourcollege.edu</p>
+    <p><strong>Phone:</strong> (555) 123-4567</p>
+  </footer>
+</body>
+</html>
