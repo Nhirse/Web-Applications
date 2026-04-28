@@ -15,7 +15,7 @@ if (!isset($_SESSION['admin_id']))
   <title>Stock Portfolio Dashboard</title>
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
-<body>
+<body class="home-page">
   <div class="app-shell">
 
     <aside class="sidebar">
@@ -139,7 +139,7 @@ if (!isset($_SESSION['admin_id']))
       </section>
 
       <footer class="footer">
-        <span>who knows • i clearly • dont</span>
+        <span>Do Not take advice from this page • This is a Demo</span>
       </footer>
     </main>
 
