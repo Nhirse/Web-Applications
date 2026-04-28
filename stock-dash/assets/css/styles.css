@@ -425,6 +425,24 @@ select option{ background: #0A1B3D; color: white; }
   background: rgba(255,255,255,0.03);
 }
 
+/*Home Page Change*/
+body.home-page .content{
+  gap:24px;
+}
+body.home-page .page-title{
+  font-size:24px;
+}
+body.home-page .grid-3 .card{
+  transform: scale(1.02);
+}
+body.home-page .grid-3 .card{
+  background:
+  radial-gradient(600px 200px at 20% 0%, rgba(139,92,246,0.25), transparent 60%),
+  radial-gradient(600px 200px at 80% 0%, rgba(34,211,238,0.20), transparent 60%),
+  rgba(255, 255, 255, 0.6);
+  /*makes cards look greyish*/
+}
+
 /* ===== Collapsible Sidebar ===== */
 body.sidebar-collapsed .app-shell{
   grid-template-columns: 90px 1fr;
